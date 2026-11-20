@@ -1,7 +1,7 @@
 # pf-ab-kinetics-longterm
 
 Long-term antibody kinetics after *Plasmodium falciparum* malaria:
-simplified analysis code and simulated data for
+analysis code and simulated data for
 
 > Yman V, Xi et al. *[Title]*. *[Journal, year]*. doi: [DOI]
 
