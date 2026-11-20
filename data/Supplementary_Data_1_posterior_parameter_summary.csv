@@ -1,0 +1,321 @@
+response_scale,model,antigen,antibody,parameter_group,parameter_class,parameter,table_label,scale,md,lo,hi,n_draws
+nMFI,2-component,MSP1,IgM,population,population_location,A0_pop,"Baseline nMFI, population median",response,397.94710721820195,313.66405278401595,505.72019326815666,16000
+nMFI,2-component,MSP1,IgM,population,population_location,gB_pop,"Boosted response amplitude, population median",response,66965.0419998771,23135.68478424301,199007.4171261487,16000
+nMFI,2-component,MSP1,IgM,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,4.392000201216066,3.3255225345841186,5.829126409125027,16000
+nMFI,2-component,MSP1,IgM,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.7560429441414585,0.3923540605499103,1.4169898581089373,16000
+nMFI,2-component,MSP1,IgM,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,3.0751345305461735,1.5496653288576896,6.52617189276074,16000
+nMFI,2-component,MSP1,IgM,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.8520279529108992,0.5886836337466184,0.9526484763855867,16000
+nMFI,2-component,MSP1,IgM,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.91804526,0.7395238825,1.12973378,16000
+nMFI,2-component,MSP1,IgM,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.84538175,1.1939946175,3.0057891899999998,16000
+nMFI,2-component,MSP1,IgM,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.357692675,0.0294481884,0.8445307067500001,16000
+nMFI,2-component,MSP1,IgM,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.10532917,0.00491999575,0.3477577355,16000
+nMFI,2-component,MSP1,IgM,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.24597101999999998,0.011670111300000001,0.7998441207499999,16000
+nMFI,2-component,MSP1,IgM,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.562694685,0.4687733255,0.680212496,16000
+nMFI,2-component,MSP1,IgM,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.499172525,0.21691870675,0.9278511047499999,16000
+nMFI,2-component,MSP2,IgM,population,population_location,A0_pop,"Baseline nMFI, population median",response,160.23106024379814,129.73487600065542,197.01418586633886,16000
+nMFI,2-component,MSP2,IgM,population,population_location,gB_pop,"Boosted response amplitude, population median",response,52577.76039193818,22913.744447526013,125020.88408664819,16000
+nMFI,2-component,MSP2,IgM,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,4.290218869051921,3.2367226752171345,5.741887261543702,16000
+nMFI,2-component,MSP2,IgM,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.2881568872544846,0.16362731458254057,0.5403263285427843,16000
+nMFI,2-component,MSP2,IgM,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.2699771266638606,1.349847286245743,4.505355363137881,16000
+nMFI,2-component,MSP2,IgM,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.902481104958943,0.7667115099387927,0.9574048498866516,16000
+nMFI,2-component,MSP2,IgM,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.68938495,0.494536934,0.9148597385,16000
+nMFI,2-component,MSP2,IgM,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.4107794999999999,0.9262533064999999,2.2841911325,16000
+nMFI,2-component,MSP2,IgM,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.19103735,0.009270834155000001,0.6666590264999999,16000
+nMFI,2-component,MSP2,IgM,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.12404061,0.0060494178175000005,0.38640776574999997,16000
+nMFI,2-component,MSP2,IgM,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.25804286,0.011073704875,0.7951241274999998,16000
+nMFI,2-component,MSP2,IgM,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.526042275,0.44782154449999995,0.62696823375,16000
+nMFI,2-component,MSP2,IgM,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.8457243699999999,0.44978367825,1.2467024824999997,16000
+nMFI,2-component,MSP3,IgM,population,population_location,A0_pop,"Baseline nMFI, population median",response,121.06406883923758,103.46904906568054,141.67174901403743,16000
+nMFI,2-component,MSP3,IgM,population,population_location,gB_pop,"Boosted response amplitude, population median",response,22485.209232964276,9034.280283292996,58038.13511248022,16000
+nMFI,2-component,MSP3,IgM,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,4.076230645627732,3.117781044211941,5.370320598528453,16000
+nMFI,2-component,MSP3,IgM,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,1.0499866581298984,0.3935813016216612,1.9519730896786804,16000
+nMFI,2-component,MSP3,IgM,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.293525836311785,1.6087434135411836,3.8924723870154114,16000
+nMFI,2-component,MSP3,IgM,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.8915929866275646,0.5618350851279619,0.9771605065376389,16000
+nMFI,2-component,MSP3,IgM,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.599098685,0.46887732725,0.75004184125,16000
+nMFI,2-component,MSP3,IgM,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.60127115,1.0522798825,2.5752216874999996,16000
+nMFI,2-component,MSP3,IgM,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.293828105,0.016967146000000002,0.8226388199999999,16000
+nMFI,2-component,MSP3,IgM,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.112485525,0.004071439947500001,0.35910170725,16000
+nMFI,2-component,MSP3,IgM,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.24263504,0.0111879356,0.79551814625,16000
+nMFI,2-component,MSP3,IgM,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.467887005,0.39161465625,0.5662487945,16000
+nMFI,2-component,MSP3,IgM,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.346596055,0.15605768425,0.6142545732499999,16000
+nMFI,2-component,AMA1,IgM,population,population_location,A0_pop,"Baseline nMFI, population median",response,122.38425180124773,101.75016166134542,147.99561944775704,16000
+nMFI,2-component,AMA1,IgM,population,population_location,gB_pop,"Boosted response amplitude, population median",response,36187.89682354033,14794.950574016608,90829.470110392693,16000
+nMFI,2-component,AMA1,IgM,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,4.208986996680544,3.2720542625515994,5.463714856395365,16000
+nMFI,2-component,AMA1,IgM,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.7851391820059963,0.34896432854317755,1.6153297363781045,16000
+nMFI,2-component,AMA1,IgM,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,3.0756881045107924,1.9649782273281189,5.016790554763212,16000
+nMFI,2-component,AMA1,IgM,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.8688873149394014,0.63678843217111,0.9533750052877117,16000
+nMFI,2-component,AMA1,IgM,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.68714681,0.5290705069999999,0.8700113477499999,16000
+nMFI,2-component,AMA1,IgM,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.58558105,1.044954955,2.60409013,16000
+nMFI,2-component,AMA1,IgM,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.5876011050000001,0.28020819525,0.9962705034999999,16000
+nMFI,2-component,AMA1,IgM,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.10357468,0.0045882951625000005,0.343596276,16000
+nMFI,2-component,AMA1,IgM,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.32165639,0.01583214645,0.9133718147499997,16000
+nMFI,2-component,AMA1,IgM,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.44940884,0.3758531215,0.55487928,16000
+nMFI,2-component,AMA1,IgM,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.5994521399999999,0.2858515415,0.9511041434999999,16000
+nMFI,2-component,GAMA,IgM,population,population_location,A0_pop,"Baseline nMFI, population median",response,148.06642641684402,119.8388103273096,182.62644914635013,16000
+nMFI,2-component,GAMA,IgM,population,population_location,gB_pop,"Boosted response amplitude, population median",response,72146.82083859907,32578.111851993053,162987.54274153337,16000
+nMFI,2-component,GAMA,IgM,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,3.9822154096387328,3.0270631469126923,5.282408545016355,16000
+nMFI,2-component,GAMA,IgM,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.56426400109586194,0.24989707006750694,1.1500814224367968,16000
+nMFI,2-component,GAMA,IgM,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.064845829945635,1.2445542397710536,3.9134074950417492,16000
+nMFI,2-component,GAMA,IgM,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.7951167573765802,0.48685388608795044,0.9328770419188206,16000
+nMFI,2-component,GAMA,IgM,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.731760985,0.5187077875,0.9420587542500001,16000
+nMFI,2-component,GAMA,IgM,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.22680645,0.728974978,2.112589577499999,16000
+nMFI,2-component,GAMA,IgM,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.561350235,0.24463915975,0.9747588969999998,16000
+nMFI,2-component,GAMA,IgM,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.100772055,0.005071913207500001,0.33547511625,16000
+nMFI,2-component,GAMA,IgM,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.321516285,0.015513409475,0.94756149275,16000
+nMFI,2-component,GAMA,IgM,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.66342434,0.5567098965,0.80145903525,16000
+nMFI,2-component,GAMA,IgM,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.5062223450000001,0.22498961425,0.86886983875,16000
+nMFI,3-component,MSP1,IgG,population,population_location,A0_pop,"Baseline nMFI, population median",response,314.6390629663658,259.06395460131466,382.37763657685747,16000
+nMFI,3-component,MSP1,IgG,population,population_location,gB_pop,"Boosted response amplitude, population median",response,77889.73876432049,52483.49274211534,127661.34891445845,16000
+nMFI,3-component,MSP1,IgG,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.0433422138480046,0.7763129003692835,1.4162805345170726,16000
+nMFI,3-component,MSP1,IgG,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.003246813744931123,0.0018651474501819162,0.004869251742642659,16000
+nMFI,3-component,MSP1,IgG,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.09329113892626702,0.027899880083568415,0.27443861454493773,16000
+nMFI,3-component,MSP1,IgG,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.489274605656369,1.2059142432459107,5.06954261041748,16000
+nMFI,3-component,MSP1,IgG,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9155273442204157,0.8071173980344636,0.9625795727455467,16000
+nMFI,3-component,MSP1,IgG,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.47802501088822025,0.2631105200515805,0.6691679247020442,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.23909399,0.0127402716,0.5976167164999999,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,0.18979317,0.009452501212499999,0.5898909037499999,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.218108945,0.010740482075000002,0.6420363627499999,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.255109535,0.011981218275000002,0.83645695375,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.403846985,0.028499583575,1.0593661599999997,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.4487799,1.0821641649999998,1.9517972224999995,16000
+nMFI,3-component,MSP1,IgG,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.307189955,0.0130980239,0.97088269475,16000
+nMFI,3-component,MSP1,IgG,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.3708849,0.31114858849999993,0.440846389,16000
+nMFI,3-component,MSP1,IgG,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.567173575,0.26437030025,0.7826872747499999,16000
+nMFI,3-component,MSP2,IgG,population,population_location,A0_pop,"Baseline nMFI, population median",response,62.946102856137884,43.51156511798021,93.35061098264246,16000
+nMFI,3-component,MSP2,IgG,population,population_location,gB_pop,"Boosted response amplitude, population median",response,49098.95350599733,30770.823341717965,76057.95746950469,16000
+nMFI,3-component,MSP2,IgG,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,0.9743358958764821,0.7438123918129764,1.2969135421405646,16000
+nMFI,3-component,MSP2,IgG,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.004461899530666738,0.002368162570393077,0.008664863683860602,16000
+nMFI,3-component,MSP2,IgG,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.07626463497307653,0.0281584843412132,0.19756849782070077,16000
+nMFI,3-component,MSP2,IgG,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,1.8897237522228627,1.079762684651507,3.488845827152772,16000
+nMFI,3-component,MSP2,IgG,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9507955104715257,0.8702328087595519,0.9815978597486007,16000
+nMFI,3-component,MSP2,IgG,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6010411923057031,0.3451932568295611,0.7671790244733436,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.57353815,0.052083086125000004,1.0525825199999999,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,0.333454495,0.01972707805,0.9569168419999997,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.46608431,0.028902119525,1.1379383299999999,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.25771392,0.01211237215,0.813120996,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.425496085,0.028915522475000004,0.9339938057499999,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.98335895,1.35770314,2.6847218075,16000
+nMFI,3-component,MSP2,IgG,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.29227173,0.012627197325,0.9309148644999998,16000
+nMFI,3-component,MSP2,IgG,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.446797555,0.37450106375000003,0.5413555932499999,16000
+nMFI,3-component,MSP2,IgG,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.8692782450000001,0.3523812435,1.3076483250000002,16000
+nMFI,3-component,MSP3,IgG,population,population_location,A0_pop,"Baseline nMFI, population median",response,227.48438532086425,188.01242200245878,272.83069305995303,16000
+nMFI,3-component,MSP3,IgG,population,population_location,gB_pop,"Boosted response amplitude, population median",response,11196.297250922784,4717.344962391347,25433.518400017605,16000
+nMFI,3-component,MSP3,IgG,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.073757852982054,0.8277205456903908,1.424476382096843,16000
+nMFI,3-component,MSP3,IgG,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.010797739201626105,0.0032471869094354406,0.034698543281023037,16000
+nMFI,3-component,MSP3,IgG,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.09450709669578582,0.02844741610235494,0.29118810576698645,16000
+nMFI,3-component,MSP3,IgG,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,3.63215686716244,1.9739522159382386,7.021071104550357,16000
+nMFI,3-component,MSP3,IgG,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.99180318359394,0.9755023307991618,0.9977693475039021,16000
+nMFI,3-component,MSP3,IgG,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6336855335214334,0.308032784747415,0.8656919501358211,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.675686665,0.5478995382499999,0.8225397575000001,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.2507508,0.71755813725,2.1063222125,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.23975498,0.011375980950000001,0.7992092887499999,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.23562972999999998,0.01099670565,0.80636028375,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.515766575,0.026562364850000006,1.0976646399999999,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.401322405,0.01990189015,1.3413558225,16000
+nMFI,3-component,MSP3,IgG,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.235979835,0.011695404825000002,0.7827858277499999,16000
+nMFI,3-component,MSP3,IgG,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.390273785,0.33124446175,0.46521318275,16000
+nMFI,3-component,MSP3,IgG,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.34816359500000005,0.1567590055,0.63963626825,16000
+nMFI,3-component,AMA1,IgG,population,population_location,A0_pop,"Baseline nMFI, population median",response,132.17795386626415,103.01417086885577,168.24723219619833,16000
+nMFI,3-component,AMA1,IgG,population,population_location,gB_pop,"Boosted response amplitude, population median",response,53293.1456123393,29322.13009903823,92432.34728506395,16000
+nMFI,3-component,AMA1,IgG,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.1219402864308885,0.8689912625747673,1.4597685789448405,16000
+nMFI,3-component,AMA1,IgG,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.004388896720550016,0.002517854429314739,0.007116397831290654,16000
+nMFI,3-component,AMA1,IgG,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.0962866788823302,0.03486405764990645,0.30280750632945364,16000
+nMFI,3-component,AMA1,IgG,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.7656487869433852,1.591297670242514,4.9584754739887895,16000
+nMFI,3-component,AMA1,IgG,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9304240086697424,0.8353201801001824,0.9714979624782218,16000
+nMFI,3-component,AMA1,IgG,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.4272899268010107,0.2231084559432081,0.6362854669647042,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.435778005,0.0604948704,0.8096679782499999,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,0.702036865,0.097908212375,1.2812053849999998,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.779814825,0.15056741625,1.2182917174999996,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.24938082,0.01115583745,0.8085521064999996,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.261717585,0.012211819625000002,0.9384305769999998,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.5594434000000001,1.04879299,2.1915419574999997,16000
+nMFI,3-component,AMA1,IgG,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.28348145999999996,0.01433925395,1.021487825,16000
+nMFI,3-component,AMA1,IgG,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.335366645,0.27912961799999997,0.40705986125,16000
+nMFI,3-component,AMA1,IgG,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.7389747,0.353873927,1.0392596600000001,16000
+nMFI,3-component,GAMA,IgG,population,population_location,A0_pop,"Baseline nMFI, population median",response,911.0565318136669,831.3537926406814,1002.624504096246,16000
+nMFI,3-component,GAMA,IgG,population,population_location,gB_pop,"Boosted response amplitude, population median",response,20655.525702024504,8977.449514277645,45719.24371562926,16000
+nMFI,3-component,GAMA,IgG,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.1035672949959294,0.8726410993746853,1.4294839517543245,16000
+nMFI,3-component,GAMA,IgG,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.004248516567510446,0.002219320658246097,0.007337169596952764,16000
+nMFI,3-component,GAMA,IgG,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.1657487817543395,0.04566944304173171,0.40384738084829686,16000
+nMFI,3-component,GAMA,IgG,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,4.203177363774694,2.282955838332472,7.931977727623134,16000
+nMFI,3-component,GAMA,IgG,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9742800541710908,0.9208136340232026,0.992064653017628,16000
+nMFI,3-component,GAMA,IgG,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.5868155094724474,0.2954652687436439,0.7938269193786921,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.20312193,0.027182920900000004,0.32784561175,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.43593325,0.8409376239999999,2.3275216349999996,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.24140625500000001,0.01224082815,0.7687789514999999,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.21871464499999999,0.010036229907500001,0.7487979109999998,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.29917223,0.013732984075000003,0.9175562674999999,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.38933945,0.701168867,2.29936901,16000
+nMFI,3-component,GAMA,IgG,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.2266775,0.010252445475,0.748087999,16000
+nMFI,3-component,GAMA,IgG,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.23340242,0.19861758575,0.27804207174999995,16000
+nMFI,3-component,GAMA,IgG,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.277129925,0.12480135099999999,0.41186989300000004,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,A0_pop,"Baseline nMFI, population median",response,31.9089967566128,25.322852910912996,40.15811974731442,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,gB_pop,"Boosted response amplitude, population median",response,34419.653414889,14737.919548206308,64690.52990831271,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.010705762932482,0.7607131995810466,1.3531861474703915,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.005426768998959724,0.002894494066348558,0.00915333225604323,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.07588849022689742,0.02212254250757326,0.2397150990900794,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.6027496142755657,1.1866224388615847,5.724724498707309,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9443423355597061,0.8235668123719431,0.9822748267860357,16000
+nMFI,3-component,MSP1,IgG1,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.44443983243343677,0.21199339076602292,0.6743025616308338,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.34500835,0.019532874850000003,0.7247990419999999,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,0.77573784,0.04746875065,1.9886668399999996,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.333227045,0.019725511125,1.0135062774999997,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.24465361000000002,0.012056661775,0.8404214214999999,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.42594207500000003,0.01876967425,1.41009992,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,2.2345717,1.337057375,3.0732704299999996,16000
+nMFI,3-component,MSP1,IgG1,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.24898320499999999,0.011353872275,0.8433687194999999,16000
+nMFI,3-component,MSP1,IgG1,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.6861949,0.5654102815000001,0.813206473,16000
+nMFI,3-component,MSP1,IgG1,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.62387562,0.26461626749999995,0.88679730225,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,A0_pop,"Baseline nMFI, population median",response,11.847336211186914,9.571313688394133,14.802563089575289,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,gB_pop,"Boosted response amplitude, population median",response,6720.473215648532,2553.655797448091,16510.69753261977,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,0.9728539177749556,0.7450370210127951,1.2993280963333398,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.008561059700571381,0.004339237745251279,0.015470432319184654,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.06173706514057422,0.02645541386077634,0.15913145419897406,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,1.8467136150323387,0.9083618203663258,3.9854001612940904,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9452345201190433,0.8284987216637822,0.9830342742832462,16000
+nMFI,3-component,MSP2,IgG1,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6104979802942377,0.3006580433459304,0.8317887797267829,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.21730076999999998,0.01053114825,0.6751859547500001,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.88503165,0.9981814307499999,2.9746526924999994,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.64731656,0.073882773125,1.160046395,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.24398609500000001,0.0110947804,0.8418952659999995,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.631441355,0.042074310025000006,1.4455358425,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.96048755,1.2720053525,2.8048016349999996,16000
+nMFI,3-component,MSP2,IgG1,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.28569957,0.014747931300000003,0.9192653199999998,16000
+nMFI,3-component,MSP2,IgG1,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.6295153600000001,0.5263135995000001,0.76404908175,16000
+nMFI,3-component,MSP2,IgG1,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.73134767,0.38871955375,0.9912837002499998,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,A0_pop,"Baseline nMFI, population median",response,28.632882639633582,22.9175904571457,35.25493176053899,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,gB_pop,"Boosted response amplitude, population median",response,1090.0364945987396,343.3604501697192,3180.773610334926,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.1074253039407287,0.8182039300750217,1.4818221195401342,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.00852194268211913,0.0030544180212807217,0.03004281085078154,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.09094717368554961,0.027104631857998423,0.287039729258883,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.9419184445809057,1.4922172437837942,6.276915511099885,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9892636654178166,0.9665520965492191,0.9971960031840794,16000
+nMFI,3-component,MSP3,IgG1,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6042241780459123,0.28094306690585547,0.8614912727438212,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.73313969,0.566909134,0.9086882905,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,2.1416442,1.3515356925000002,3.3170625399999993,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.24976011999999997,0.011109574075,0.8216891694999999,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.23665184,0.011146486950000001,0.7997618727499999,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.7299956400000001,0.0732796911,1.30374117,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,0.40391798,0.019727470925,1.36023532,16000
+nMFI,3-component,MSP3,IgG1,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.23888651500000002,0.011403828425000002,0.8004293009999998,16000
+nMFI,3-component,MSP3,IgG1,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.47739743,0.40542730625,0.57006935375,16000
+nMFI,3-component,MSP3,IgG1,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.403302745,0.1776094895,0.7270809515,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,A0_pop,"Baseline nMFI, population median",response,21.988446360970073,17.745206094876043,27.14904613218491,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,gB_pop,"Boosted response amplitude, population median",response,22980.332079709515,8644.676872544484,51266.08792117958,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.1691251686228563,0.8708266810743461,1.5651448581060439,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.0073737941156668246,0.003629046234365096,0.013595470423473466,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.10226051559830544,0.03587808134757285,0.3437688097274974,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.839540944949391,1.4984564626001906,5.614113126811308,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9090843516013987,0.7249599239406144,0.9729228580118295,16000
+nMFI,3-component,AMA1,IgG1,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.41666275751742243,0.20218573536757392,0.6461467739933912,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.25692000000000004,0.0155566338,0.63306473325,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.47613665,0.5577615020000001,2.473744687499999,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,1.1041184,0.49326196224999996,1.6005763174999996,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.236703575,0.011713543775,0.778197804,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.31084024,0.013220089050000003,1.1847713149999999,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.9500812500000002,1.2036647475,2.9290698374999997,16000
+nMFI,3-component,AMA1,IgG1,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.247336745,0.011262181275,0.8629537219999999,16000
+nMFI,3-component,AMA1,IgG1,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.545465035,0.44957642224999994,0.6670960694999998,16000
+nMFI,3-component,AMA1,IgG1,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.6686057599999999,0.331749646,0.9259197589999999,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,A0_pop,"Baseline nMFI, population median",response,22.607963240736503,18.005488542803707,28.583449314047915,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,gB_pop,"Boosted response amplitude, population median",response,1969.293740543837,661.4487703323754,5700.403896781078,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,1.0420005263984735,0.8052405068696108,1.3617391352786283,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.008306611215873068,0.004480784141679237,0.01376083856093766,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.13301994495139263,0.02660044564694196,0.3743335482534554,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.8793860663147823,1.473769441816155,5.899093580164166,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9653247567528858,0.8837796810785408,0.989588155802996,16000
+nMFI,3-component,GAMA,IgG1,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.5052975882536319,0.22417424150750304,0.7635982054324386,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.48839965500000004,0.041618962575,0.80833218475,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,2.4007602500000003,1.6061219775,3.5801933524999994,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.31233099,0.015510039725,0.8536679339999996,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.239108075,0.01036616635,0.8012631644999997,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.28589852000000004,0.014254152075000004,0.92396071775,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.405306,0.61976248975,2.342505742499999,16000
+nMFI,3-component,GAMA,IgG1,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.233625055,0.010681781125,0.78984499975,16000
+nMFI,3-component,GAMA,IgG1,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.5827036999999999,0.48955154325,0.69611902225,16000
+nMFI,3-component,GAMA,IgG1,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.6758771,0.30438446474999997,0.998375889,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,A0_pop,"Baseline nMFI, population median",response,15.045533203059614,13.169521532713858,17.250313682431365,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,gB_pop,"Boosted response amplitude, population median",response,11698.032021573887,4051.3274189443046,27781.631670858344,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,3.935370963111203,2.9292961354886273,5.160755470159958,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.009179016649427808,0.0045563396018397226,0.01672647123621726,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.10719833094928499,0.02424777503859123,0.28642733297863054,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.1420548958495704,1.1241966968079642,4.234267755474098,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.986915277893097,0.9636666457537104,0.995192896666142,16000
+nMFI,3-component,MSP1,IgG3,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.5481808545197402,0.24649985253543627,0.806971819175897,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.39191584,0.15640484975,0.5290772585000001,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.5856607999999999,0.9192593255,2.518991085,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.29516244,0.013012152400000001,0.86834789675,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.26626918,0.011920608825,0.8744201009999998,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,1.1999616,0.775829471,1.7234075099999997,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.19638605,0.665819849,1.885209665,16000
+nMFI,3-component,MSP1,IgG3,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.285814675,0.013539790375000001,0.9027755559999999,16000
+nMFI,3-component,MSP1,IgG3,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.41467169000000004,0.33649729375000004,0.5160105484999999,16000
+nMFI,3-component,MSP1,IgG3,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.234500235,0.10188077250000001,0.43221464074999993,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,A0_pop,"Baseline nMFI, population median",response,7.9222392543668985,6.543975733664579,9.674639636106642,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,gB_pop,"Boosted response amplitude, population median",response,6587.205263750103,2001.7027700110714,18944.211946674284,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,3.26689682267849,2.595341155375645,4.154843802910549,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.007892203938675485,0.004264957316311022,0.012491061247529755,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.18250209985064011,0.06180275638064126,0.3828912100988899,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.5892354919935436,1.4272432618622977,4.560884828546645,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9748325248096688,0.9047408939242604,0.9932847519235589,16000
+nMFI,3-component,MSP2,IgG3,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6821859974984585,0.4069622370904491,0.832398400565323,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.529150155,0.27156869899999997,0.7613787072499999,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,2.5653361500000003,1.7574588,3.7378495849999998,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.18488028499999998,0.008749651705,0.6784012322499996,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.20779297000000002,0.010613670274999999,0.70563167475,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.43344063,0.030977614275,0.9558270014999999,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,2.1661102,1.4523526924999999,3.0599447699999995,16000
+nMFI,3-component,MSP2,IgG3,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.20643145499999999,0.009668879555,0.7033685365,16000
+nMFI,3-component,MSP2,IgG3,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.460374155,0.37705795725,0.57297852525,16000
+nMFI,3-component,MSP2,IgG3,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.5584193399999999,0.25290468400000005,0.8614385434999999,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,A0_pop,"Baseline nMFI, population median",response,33.856066485339525,29.565935252895272,38.824945876744984,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,gB_pop,"Boosted response amplitude, population median",response,999.9171268602114,399.95744201874896,2399.5831170510455,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,3.390135191216202,2.5984119232446394,4.395872027655497,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.01099543986350463,0.003461660209710495,0.037211728662392834,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.0933739855360238,0.03055242780029539,0.30029636146110733,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.9168073651007767,1.5490394466628647,5.446557124783942,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9917430910025683,0.9612859974060995,0.9985728582924124,16000
+nMFI,3-component,MSP3,IgG3,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6411588175682237,0.3064942530017608,0.870447885958184,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.53808146,0.447917958,0.6498981544999999,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.6049156500000001,1.0051917825,2.655657774999999,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.2370086,0.01069917675,0.8084153499999999,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.24076646000000002,0.01140808595,0.791436783,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.748555005,0.14301792175,1.367887715,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.01352855,0.0772004084,2.0515971574999994,16000
+nMFI,3-component,MSP3,IgG3,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.237976185,0.010833132375,0.7909447605,16000
+nMFI,3-component,MSP3,IgG3,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.16822198500000002,0.13942980725,0.2056895955,16000
+nMFI,3-component,MSP3,IgG3,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.24643013000000002,0.11009131325,0.4527238224999999,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,A0_pop,"Baseline nMFI, population median",response,12.373312060503608,10.957651561961177,13.990622238990287,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,gB_pop,"Boosted response amplitude, population median",response,1447.1299078998122,592.6520046945834,3181.09935946426,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,3.3412862912818273,2.6932729473622583,4.248023255992134,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.008405767943822919,0.0031036252973768073,0.030986643329408387,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.1221060744162828,0.05085101076256285,0.3225193436101318,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,2.384150510424904,1.5732189794231346,3.8319204833028855,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9878375869488214,0.9690104279191774,0.9958056384231927,16000
+nMFI,3-component,AMA1,IgG3,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.6703722273147118,0.4027165198797027,0.8608789202388397,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.47929008500000003,0.4022227565,0.57379409075,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.71757595,1.2128066075000001,2.5507481749999994,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.5459231950000001,0.045142150925,1.1081547699999998,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.29594874000000004,0.015344353375000001,0.8928486267499999,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.6457674250000001,0.40403934,1.0567532825000001,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.37478525,0.897962637,2.11221611,16000
+nMFI,3-component,AMA1,IgG3,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.43416866,0.023444936725,1.005942145,16000
+nMFI,3-component,AMA1,IgG3,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.104475495,0.084801508425,0.13090843,16000
+nMFI,3-component,AMA1,IgG3,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.15323957500000002,0.06731187285000001,0.3015374149999999,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,A0_pop,"Baseline nMFI, population median",response,17.135896092702794,15.75956184779535,18.619774758536746,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,gB_pop,"Boosted response amplitude, population median",response,3284.871786108454,1318.9660288463463,7299.452071065706,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,r_pop_mo,"Boosting rate, per month",per_month,4.899398781884593,3.983395106710968,5.878089549286823,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,c_long_pop_mo,"Long-component decay rate, per month",per_month,0.007364628295577315,0.005112677708134879,0.010091515418403526,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,c_intermediate_pop_mo,"Intermediate-component decay rate, per month",per_month,0.1868581606309091,0.06639060054856599,0.4064629251503325,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,c_short_pop_mo,"Short-component decay rate, per month",per_month,3.2230749268889447,1.9604228389582985,5.472344062537046,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,rho_pop_prob,"rho, short-component weight parameter",probability,0.9855707170220938,0.9585681716678364,0.9952305923548752,16000
+nMFI,3-component,GAMA,IgG3,population,population_location,gamma_pop_prob,"gamma, intermediate conditional weight parameter",probability,0.5172592969509895,0.29355716021757705,0.7151336459704026,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,A0_sigma,"Between-individual SD, baseline",log_response_sd,0.297192695,0.23397179575,0.3700408965,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,gB_sigma,"Between-individual SD, boosted amplitude",log_response_sd,1.6654670999999999,1.1104662975000001,2.5659634675,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,c_long_sigma,"Between-individual SD, long-component decay",log_rate_sd,0.137785135,0.006491038282500001,0.53466958775,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,c_intermediate_sigma,"Between-individual SD, intermediate-component decay",log_rate_sd,0.2112695,0.010553006525,0.7439975092500001,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,c_short_sigma,"Between-individual SD, short-component decay",log_rate_sd,0.78469973,0.46899657600000005,1.2548651725,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,rho_sigma,"Between-individual SD, rho",logit_sd,1.92953705,1.2854519275000003,2.7634331875000004,16000
+nMFI,3-component,GAMA,IgG3,between_individual_sd,between_individual_sd,gamma_sigma,"Between-individual SD, gamma",logit_sd,0.23984450499999999,0.01014987525,0.7699839332499994,16000
+nMFI,3-component,GAMA,IgG3,observation_error,observation_error,sigma_case,"Residual SD, cases",log_response_sd,0.144268445,0.1163191345,0.18428881500000002,16000
+nMFI,3-component,GAMA,IgG3,observation_error,observation_error,sigma_ctrl,"Residual SD, controls",log_response_sd,0.139252605,0.0633700182,0.2564715209999999,16000
