@@ -68,7 +68,7 @@ MSP1 IgG (three-component model). In `R/config.R`:
 - `QUICK_RUN <- TRUE` runs short chains to check that everything works.
   Results from a quick run are not reliable.
 
-Run time with the paper's sampler settings: [to be measured].
+Run time with the paper's sampler settings: Approx. 15 minutes.
 
 ## Simulated data
 
