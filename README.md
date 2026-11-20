@@ -172,14 +172,10 @@ combination.
 Not included here:
 
 - data cleaning and normalisation of the multiplex assay data;
-- exclusion of controls with high values and of one outlying IgM observation
-  (described in the Methods);
 - posterior predictive checks and other model diagnostics beyond R-hat,
   effective sample sizes and sampler warnings;
 - comparisons between groups by prior malaria exposure;
-- the two- versus three-component model comparison for IgG;
-- sensitivity analyses;
-- supplementary tables.
+- sensitivity analyses.
 
 ## Data availability
 
